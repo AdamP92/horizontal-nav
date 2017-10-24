@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+  background-color: #dbd6cf;
+  font: 'Bevan', sans-serif;
+  line-height:1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, nav {
+  text-align: center;
+}
+
+nav {
+  list-style-type: none;
+}
