@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  line-height:1.5;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -16,16 +16,17 @@ body {
 }
 
 h1 {
-  font-family: 'Bevan', serif;
-  font-size: 1.5rem;
+  font-family: Bevan, serif;
+  font-size: 2rem;
   color: #fff;
   display: block;
   text-align: center;
+  padding: 0em;
 }
 
-li {
+a:link {
   list-style-type: none;
-  font-family: 'Bevan', sans-serif;
+  font-family: Georgia, sans-serif;
   text-decoration: none;
 }
 
@@ -35,36 +36,36 @@ a:hover {
 
 .intro {
   display: inline-block;
-  padding: 0.75em;
+  padding: .6em;
   background-color: #713837;
   color: #fff;
-  margin: 0.3em;
+  margin: .3em;
   border-radius: 5px;
 }
 
 .terra {
   display: inline-block;
-  padding: 0.75em;
+  padding: 0.6em;
   background-color: #713837;
   color: #fff;
-  margin: 0.3em;
+  margin: .3em;
   border-radius: 5px;
 }
 
 .mars {
   display: inline-block;
-  padding: 0.75em;
+  padding: .6em;
   background-color: #713837;
   color: #fff;
-  margin: 0.3em;
+  margin: .3em;
   border-radius: 5px;
 }
 
 .venus {
   display: inline-block;
-  padding: 0.75em;
+  padding: .6em;
   background-color: #713837;
   color: #fff;
-  margin: 0.3em;
+  margin: .3em;
   border-radius: 5px;
 }
