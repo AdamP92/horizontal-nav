@@ -1,7 +1,6 @@
 html {
   box-sizing: border-box;
   background-color: #dbd6cf;
-  font: 'Bevan', sans-serif;
   line-height:1.5;
 }
 
@@ -9,10 +8,63 @@ html {
   box-sizing: inherit;
 }
 
-h1, nav {
+body {
+  background-color: #79756f;
+  border-top: 2px solid #595652;
+  border-bottom: #595652;
+  margin: .1em;
+}
+
+h1 {
+  font-family: 'Bevan', serif;
+  font-size: 1.5rem;
+  color: #fff;
+  display: block;
   text-align: center;
 }
 
-nav {
+li {
   list-style-type: none;
+  font-family: 'Bevan', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f33;
+}
+
+.intro {
+  display: inline-block;
+  padding: 0.75em;
+  background-color: #713837;
+  color: #fff;
+  margin: 0.3em;
+  border-radius: 5px;
+}
+
+.terra {
+  display: inline-block;
+  padding: 0.75em;
+  background-color: #713837;
+  color: #fff;
+  margin: 0.3em;
+  border-radius: 5px;
+}
+
+.mars {
+  display: inline-block;
+  padding: 0.75em;
+  background-color: #713837;
+  color: #fff;
+  margin: 0.3em;
+  border-radius: 5px;
+}
+
+.venus {
+  display: inline-block;
+  padding: 0.75em;
+  background-color: #713837;
+  color: #fff;
+  margin: 0.3em;
+  border-radius: 5px;
 }
