@@ -12,7 +12,8 @@ body {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
-  margin: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 h1 {
@@ -26,8 +27,9 @@ h1 {
 a:link {
   list-style-type: none;
   font-family: Arial, sans-serif;
+  text-align: center;
   text-decoration: none;
-  padding: .6em;
+  padding: .75em;
   background-color: #713837;
   color: #fff;
   border-radius: 5px;
