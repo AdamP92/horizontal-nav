@@ -10,24 +10,27 @@ html {
 
 body {
   background-color: #79756f;
-  border-top: 2px solid #595652;
-  border-bottom: #595652;
-  margin: .1em;
+  border-top: 3px solid #595652;
+  border-bottom: 3px solid #595652;
+  margin: auto;
 }
 
 h1 {
   font-family: Bevan, serif;
-  font-size: 2rem;
+  font-size: 2em;
   color: #fff;
   display: block;
   text-align: center;
-  padding: 0em;
 }
 
 a:link {
   list-style-type: none;
-  font-family: Georgia, sans-serif;
+  font-family: Arial, sans-serif;
   text-decoration: none;
+  padding: .6em;
+  background-color: #713837;
+  color: #fff;
+  border-radius: 5px;
 }
 
 a:hover {
@@ -36,36 +39,16 @@ a:hover {
 
 .intro {
   display: inline-block;
-  padding: .6em;
-  background-color: #713837;
-  color: #fff;
-  margin: .3em;
-  border-radius: 5px;
 }
 
-.terra {
+.terre {
   display: inline-block;
-  padding: 0.6em;
-  background-color: #713837;
-  color: #fff;
-  margin: .3em;
-  border-radius: 5px;
 }
 
 .mars {
   display: inline-block;
-  padding: .6em;
-  background-color: #713837;
-  color: #fff;
-  margin: .3em;
-  border-radius: 5px;
 }
 
 .venus {
   display: inline-block;
-  padding: .6em;
-  background-color: #713837;
-  color: #fff;
-  margin: .3em;
-  border-radius: 5px;
 }
