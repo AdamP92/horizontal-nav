@@ -12,16 +12,16 @@ body {
   background-color: #79756f;
   border-top: 3px solid #595652;
   border-bottom: 3px solid #595652;
-  display: block;
-  margin: 0 auto;
+  margin: auto;
 }
 
 h1 {
   font-family: Bevan, serif;
   font-size: 2em;
   color: #fff;
-  display: block;
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
 
 a:link {
@@ -41,16 +41,24 @@ a:hover {
 
 .intro {
   display: inline-block;
+  text-align: center;
+  margin: .3em;
 }
 
 .terre {
   display: inline-block;
+  text-align: center;
+  margin: .3em;
 }
 
 .mars {
   display: inline-block;
+  text-align: center;
+  margin: .3em;
 }
 
 .venus {
   display: inline-block;
+  text-align: center;
+  margin: .3em;
 }
